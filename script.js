@@ -61,6 +61,31 @@ document.querySelectorAll('.skill-category, .project-card, .education-item').for
 const navBrand = document.querySelector('.nav-brand');
 const navLinks_element = document.querySelector('.nav-links');
 
+// Nav toggle button
+const navToggle = document.querySelector('.nav-toggle');
+
+if (navToggle && navLinks_element) {
+    navToggle.addEventListener('click', () => {
+        const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', String(!expanded));
+        navLinks_element.classList.toggle('open');
+
+        // animate hamburger to X
+        navToggle.classList.toggle('open');
+    });
+
+    // Close menu when a link is clicked (mobile)
+    navLinks_element.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (navLinks_element.classList.contains('open')) {
+                navLinks_element.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', 'false');
+                navToggle.classList.remove('open');
+            }
+        });
+    });
+}
+
 // Counter animation for stats
 const stats = document.querySelectorAll('.stat h3');
 const statsSection = document.querySelector('.about-stats');
