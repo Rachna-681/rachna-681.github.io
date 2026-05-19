@@ -14,8 +14,8 @@ This portfolio website features:
 ## 📋 Content Highlights
 
 ### Profile
-- **MBA in Finance and Marketing** - Advanced business education
-- **BSc in Computer Science** - Strong technical foundation
+- **MBA in Finance and Marketing**, Barkatullah University, Bhopal - Advanced business education
+- **BSc in Computer Science**, Barkatullah University, Bhopal - Strong technical foundation
 - **5+ years** in Data Analytics
 - **15+ projects** completed
 - **Open to opportunities** in data-driven roles
@@ -180,9 +180,11 @@ Update these in `index.html` for better SEO:
 
 ## 📧 Contact & Support
 For questions or customizations:
-- Email: rachna@email.com
-- LinkedIn: [Add your LinkedIn]
-- GitHub: [Add your GitHub]
+- Email: [rachnaguptaa385@gmail.com](mailto:rachnaguptaa385@gmail.com)
+- Phone: [+91 7509779066](tel:+917509779066)
+- Location: Indore, India
+- LinkedIn: https://www.linkedin.com/in/rachna-gupt/
+- GitHub: https://github.com/Rachna-681
 
 ## 📄 License
 Feel free to use this template for your portfolio. Modify as needed for your personal use.
